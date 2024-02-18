@@ -17,7 +17,7 @@ void test1()
 
     std::array<double, 256> arr;
 
-    enyo::ParallelFor(0, 256, [&](const int64_t i)
+    enyo::ParallelFor(0, 256, [&](const int64_t& i)
         {
             arr[i] = sin(PI * double(i) / 256.0);
             arr[i] /= float(i) + epsilon;
@@ -38,7 +38,7 @@ void test2()
 
     std::array<std::array<int32_t, 64>, 64> arr;
 
-    enyo::ParallelFor2D({ {0,0}, {64, 64} }, [&](const std::pair<int64_t, int64_t> p)
+    enyo::ParallelFor2D({ {0,0}, {64, 64} }, [&](const std::pair<int64_t, int64_t>& p)
     {
         arr[p.first][p.second] = (p.first + 1) * (p.second + 1);
     });
