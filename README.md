@@ -1,0 +1,1 @@
+Fast multiprocessed "for" loop
