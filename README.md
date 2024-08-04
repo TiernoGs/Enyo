@@ -12,7 +12,7 @@ Moreover, the lib is a fork from pbrt-v4 available at this URL: https://github.c
 
 - Windows
 - Linux
-- MacOS (However, I don't have a computer to test. Any contribution for this OS are welcome! )
+- !Untested on MacOS!
 
 ## Documentation
 
