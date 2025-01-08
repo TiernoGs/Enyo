@@ -11,7 +11,7 @@ Moreover, the lib is a fork from pbrt-v4 available at this URL: https://github.c
 ## Platforms supported
 
 - Windows
-- Linux
+- Linux (Tested on Ubuntu 18)
 - !Untested on MacOS!
 
 ## Documentation
